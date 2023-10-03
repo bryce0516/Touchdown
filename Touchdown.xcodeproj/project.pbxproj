@@ -72,7 +72,6 @@
 				B54D3BA12ACCAB8900DEB996 /* Data */,
 				B54D3B8A2ACCAAB100DEB996 /* TouchdownApp.swift */,
 				B54D3BA32ACCAC8B00DEB996 /* App */,
-				B54D3B8C2ACCAAB100DEB996 /* ContentView.swift */,
 				B54D3B8E2ACCAAB300DEB996 /* Assets.xcassets */,
 				B54D3B902ACCAAB300DEB996 /* Preview Content */,
 			);
@@ -101,6 +100,7 @@
 		B54D3BA32ACCAC8B00DEB996 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				B54D3B8C2ACCAAB100DEB996 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
