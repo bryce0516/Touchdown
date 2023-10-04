@@ -12,8 +12,15 @@ struct ContentView: View {
   
   // MARK: - BODY
   var body: some View {
-    FooterView()
-      .padding(.horizontal)
+    VStack(spacing: 0) {
+      NavigationBarView()
+      
+      Spacer()
+      
+      FooterView()
+        .padding(.horizontal)
+    }
+    .background(colorBackground.ignoresSafeArea(.all, edges: .all))
   }
 }
 
