@@ -25,6 +25,8 @@
 		B54D3BBA2ACD982800DEB996 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D3BB92ACD982800DEB996 /* FeaturedTabView.swift */; };
 		B54D3BBC2ACD9F3B00DEB996 /* CatagoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D3BBB2ACD9F3B00DEB996 /* CatagoryModel.swift */; };
 		B54D3BBE2ACD9FD400DEB996 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D3BBD2ACD9FD400DEB996 /* CategoryItemView.swift */; };
+		B54D3BC02ACDA0DB00DEB996 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D3BBF2ACDA0DB00DEB996 /* CategoryGridView.swift */; };
+		B54D3BC22ACDA1AB00DEB996 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D3BC12ACDA1AB00DEB996 /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		B54D3BB92ACD982800DEB996 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		B54D3BBB2ACD9F3B00DEB996 /* CatagoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryModel.swift; sourceTree = "<group>"; };
 		B54D3BBD2ACD9FD400DEB996 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		B54D3BBF2ACDA0DB00DEB996 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		B54D3BC12ACDA1AB00DEB996 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				B54D3BB72ACD938B00DEB996 /* FeaturedItemView.swift */,
 				B54D3BB92ACD982800DEB996 /* FeaturedTabView.swift */,
 				B54D3BBD2ACD9FD400DEB996 /* CategoryItemView.swift */,
+				B54D3BBF2ACDA0DB00DEB996 /* CategoryGridView.swift */,
+				B54D3BC12ACDA1AB00DEB996 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 				B54D3BAE2ACCAEB200DEB996 /* FooterView.swift in Sources */,
 				B54D3B8B2ACCAAB100DEB996 /* TouchdownApp.swift in Sources */,
 				B54D3BAC2ACCACDE00DEB996 /* Constant.swift in Sources */,
+				B54D3BC02ACDA0DB00DEB996 /* CategoryGridView.swift in Sources */,
 				B54D3BB02ACD890C00DEB996 /* NavigationBarView.swift in Sources */,
 				B54D3BBA2ACD982800DEB996 /* FeaturedTabView.swift in Sources */,
+				B54D3BC22ACDA1AB00DEB996 /* SectionView.swift in Sources */,
 				B54D3BBE2ACD9FD400DEB996 /* CategoryItemView.swift in Sources */,
 				B54D3BB42ACD926F00DEB996 /* PlayerModel.swift in Sources */,
 				B54D3BBC2ACD9F3B00DEB996 /* CatagoryModel.swift in Sources */,
