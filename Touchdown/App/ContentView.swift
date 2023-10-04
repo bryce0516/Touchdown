@@ -35,7 +35,6 @@ struct ContentView: View {
             FooterView()
               .padding(.horizontal)
           }
-          
         }) //: SCROLLVIEW
  
       }
