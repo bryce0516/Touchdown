@@ -22,9 +22,9 @@ struct ProductItemView: View {
       }
       .background(
         Color(
-          red: product.color[0],
-          green: product.color[1],
-          blue: product.color[2]
+          red: product.red,
+          green: product.green,
+          blue: product.blue
         ))
       .cornerRadius(12)
       
@@ -32,7 +32,7 @@ struct ProductItemView: View {
         .font(.title3)
         .fontWeight(.black)
       
-      Text("$\(product.price)")
+      Text("$\(product.formattedPrice)")
         .fontWeight(.semibold)
         .foregroundColor(.gray)
     }
