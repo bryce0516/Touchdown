@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RatingSizesDetailView: View {
   // MARK: - PROPERTIES
+  let sizes: [String] = ["XS", "S", "M", "L", "XL"]
   
   // MARK: - BODY
   var body: some View {
@@ -18,9 +19,9 @@ struct RatingSizesDetailView: View {
         Text("Ratings")
           .font(.footnote)
           .fontWeight(.semibold)
-          .foregroundColor(.gray)
+          .foregroundColor(colorGray)
         
-        HStack(alignment: .center, spacing: 2) {
+        HStack(alignment: .center, spacing: 3) {
           ForEach(1...5, id: \.self) { item in
             Button(action: {
               
@@ -34,6 +35,7 @@ struct RatingSizesDetailView: View {
           }
         }
       }
+      Spacer()
       // SIZES
       
       VStack(alignment: .trailing, spacing: 3) {
@@ -42,6 +44,23 @@ struct RatingSizesDetailView: View {
           .font(.footnote)
           .fontWeight(.semibold)
           .foregroundColor(colorGray)
+        
+        HStack(alignment: .center, spacing: 5) {
+          ForEach(sizes, id: \.self) { size in
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+              Text(size)
+                .font(.footnote)
+                .fontWeight(.heavy)
+                .foregroundColor(colorGray)
+                .frame(width: 28, height: 28, alignment: .center)
+                .background(
+                  RoundedRectangle(cornerRadius: 5)
+                    .stroke(colorGray, lineWidth: 2)
+                )
+              
+            })
+          }
+        }
       }
     }
   }
