@@ -40,8 +40,12 @@ struct ProductDetailView: View {
         } //: SCROLLVIEW
         
         // QUNTITY + FAVOURITE
-        
+        QuantityFavouriteDetailView()
+          .padding(.vertical, 10)
         // ADD TO CART
+        AddToCartDetailView()
+          .padding(.bottom, 20)
+        
         Spacer()
       } //: VSTACK
       .zIndex(0)
