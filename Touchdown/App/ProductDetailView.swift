@@ -19,7 +19,7 @@ struct ProductDetailView: View {
       // HEADER
       HeaderDetailView()
         .padding(.horizontal)
-      Text(sampleProduct.name)
+      
       // DETAIL TOP PART
       TopPartDetailView()
         .padding(.horizontal)
